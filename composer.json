@@ -1,0 +1,17 @@
+{
+    "name": "apolm01-030/sgav-app",
+    "description": "Sistema para la gestion y alquiler de viviendas",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Angel"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "App\\": "./config",
+            "Models\\": "./models"
+        }
+    }
+}
